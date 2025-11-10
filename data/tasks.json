@@ -1,0 +1,25 @@
+{
+  "tasks": [
+    {
+      "id": 1,
+      "title": "Read 3 pages of Design Psychology",
+      "skill": "UX Design",
+      "completed": false,
+      "points": 5
+    },
+    {
+      "id": 2,
+      "title": "Code a landing page section",
+      "skill": "Frontend Development",
+      "completed": false,
+      "points": 10
+    },
+    {
+      "id": 3,
+      "title": "Research color psychology",
+      "skill": "UX Design",
+      "completed": true,
+      "points": 4
+    }
+  ]
+}

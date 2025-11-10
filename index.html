@@ -10,12 +10,30 @@
 <body>
   <header>
     <h1>📋 SkillFlow Tracker</h1>
+    <p>Subskills, XP & Streaks – your personal progress radar 📈</p>
   </header>
 
   <main>
+    <div id="streak-box"></div>
+    
+    <section id="level-section">
+      <div id="level-badge">
+        <span id="level-number">1</span>
+        <svg id="xp-ring" width="80" height="80">
+          <circle cx="40" cy="40" r="35" stroke="#e0e0e0" stroke-width="6" fill="none"/>
+          <circle id="xp-progress" cx="40" cy="40" r="35" stroke="#4caf50" stroke-width="6" fill="none"
+                  stroke-linecap="round" stroke-dasharray="219.91" stroke-dashoffset="219.91"/>
+        </svg>
+        <span id="xp-text">0 / 100 XP</span>
+      </div>
+    </section>
+
     <section id="todo-list"></section>
+    <div id="insight-box"></div>
     <canvas id="skillChart"></canvas>
   </main>
+
+  <div id="level-up-toast">LEVEL UP! 🚀</div>
 
   <script src="script.js"></script>
 </body>

@@ -1,25 +1,76 @@
 {
-  "tasks": [
+  "skills": [
     {
-      "id": 1,
-      "title": "Read 3 pages of Design Psychology",
-      "skill": "UX Design",
-      "completed": false,
-      "points": 5
+      "name": "UX Design",
+      "color": "#FFB74D",
+      "subskills": [
+        {
+          "name": "User Research",
+          "tasks": [
+            {
+              "id": 1,
+              "title": "Read 3 pages of Design Psychology",
+              "points": 5,
+              "difficulty": "Easy",
+              "completed": false,
+              "completedAt": null
+            },
+            {
+              "id": 2,
+              "title": "Conduct 1 mock interview",
+              "points": 10,
+              "difficulty": "Medium",
+              "completed": false,
+              "completedAt": null
+            }
+          ]
+        },
+        {
+          "name": "Wireframing",
+          "tasks": [
+            {
+              "id": 3,
+              "title": "Create homepage wireframe",
+              "points": 8,
+              "difficulty": "Medium",
+              "completed": false,
+              "completedAt": null
+            }
+          ]
+        }
+      ]
     },
     {
-      "id": 2,
-      "title": "Code a landing page section",
-      "skill": "Frontend Development",
-      "completed": false,
-      "points": 10
-    },
-    {
-      "id": 3,
-      "title": "Research color psychology",
-      "skill": "UX Design",
-      "completed": true,
-      "points": 4
+      "name": "Frontend Development",
+      "color": "#64B5F6",
+      "subskills": [
+        {
+          "name": "HTML & CSS",
+          "tasks": [
+            {
+              "id": 4,
+              "title": "Code hero section layout",
+              "points": 10,
+              "difficulty": "Medium",
+              "completed": false,
+              "completedAt": null
+            }
+          ]
+        },
+        {
+          "name": "JavaScript Logic",
+          "tasks": [
+            {
+              "id": 5,
+              "title": "Fix scroll animation bug",
+              "points": 12,
+              "difficulty": "Hard",
+              "completed": false,
+              "completedAt": null
+            }
+          ]
+        }
+      ]
     }
   ]
-}
+            }
